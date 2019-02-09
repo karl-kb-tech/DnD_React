@@ -1,0 +1,53 @@
+$background-color: #000000;
+$hacker-green: #20c20e;
+$hacker-red: #ff0000;
+$font-basic: "IBM Plex Mono", monospace;
+$font-hacker: "Press Start 2P", cursive;
+
+body {
+  background: $background-color;
+  color: $hacker-green;
+  font-family: $font-hacker;
+}
+
+h1 {
+  font-size: 3rem;
+  letter-spacing: 1rem;
+}
+
+// Button Styles:
+.enter {
+  font-family: $font-hacker;
+  color: $hacker-red;
+  background-color: $background-color;
+  font-size: 2rem;
+  padding: 1.5rem;
+  margin-top: 8%;
+}
+
+// Home Container Div:
+.container {
+  margin-top: 8%;
+  text-align: center;
+}
+
+.formContainer {
+  margin-top: 15%;
+  text-align: center;
+}
+
+input {
+  font-family: $font-hacker;
+  color: $hacker-red;
+  background-color: $background-color;
+  font-size: 2rem;
+  padding: 1.5rem;
+}
+
+.submitButton {
+  font-family: $font-hacker;
+  color: $hacker-red;
+  background-color: $background-color;
+  font-size: 2rem;
+  padding: 1.5rem;
+}
