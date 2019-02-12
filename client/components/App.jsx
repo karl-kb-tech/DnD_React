@@ -1,8 +1,17 @@
 import React from 'react'
 
+import RandChar from './RandChar'
+
 const App = () => {
   return (
-    <h1>Dungeons and Dragons character development has begun!</h1>
+    <div>
+
+      <h1>Dungeons and Dragons character development has begun!</h1>
+
+      <RandChar />
+
+    </div>
+
   )
 }
 

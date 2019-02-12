@@ -1,0 +1,14 @@
+.vscode
+node_modules/
+spec/
+coverage/
+src/
+.gitattributes
+.gitignore
+.editorconfig
+.travis.yml
+karma.conf.js
+tsconfig.json
+tsconfig.build.json
+tslint.json
+*.tgz
